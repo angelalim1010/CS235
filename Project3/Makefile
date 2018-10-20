@@ -10,4 +10,4 @@ Song.o: Song.cpp Song.h
 LinkedSet.o: Set.cpp LinkedSet.h SetInterface.h
 	g++ $(CXXFLAGS) -c LinkedSet.cpp
 clean:
-	rm -f main.o PlayList.o Song.o Set.o
+	rm main main.o PlayList.o Song.o 
