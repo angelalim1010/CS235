@@ -45,10 +45,10 @@ bool Set<ItemType>::remove(const ItemType& anEntry){
 		{
 			item_count_--;
 			items_[located_index] = items_[item_count_];
-		} 
+		}
 	return remove_item;
 }
-//clear the set by setting the item_count to 0 
+//clear the set by setting the item_count to 0
 template<class ItemType>
 void Set<ItemType>::clear(){
 	item_count_ = 0;
@@ -75,4 +75,3 @@ int Set<ItemType>::getIndexOf(const ItemType& target) const{
 			return i;
 	return -1;
 }
-

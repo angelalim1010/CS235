@@ -10,4 +10,4 @@ Song.o: Song.cpp Song.h
 Set.o: Set.cpp Set.h SetInterface.h
 	g++ $(CXXFLAGS) -c Set.cpp
 clean:
-	rm -f main.o PlayList.o Song.o Set.o
+	rm main main.o PlayList.o Song.o 
